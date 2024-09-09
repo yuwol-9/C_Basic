@@ -1,7 +1,17 @@
 #include <stdio.h>
 #define _CRT_SECURE_NO_WARNINGS
 
-#include <stdio.h>
+int multiply(int x, int y) {
+	return x * y
+}
+
+int add(int x, int y) {
+	return x + y
+}
+
+int subtract(int x, int y) {
+	return x - y
+}
 
 int main() {
 	int a = 0;
@@ -14,16 +24,4 @@ int main() {
 	printf("%d\n%d\n%d\n", c1, c2, c3);
 
 	return 0;
-}
-
-int multiply(int x, int y) {
-	return x * y
-}
-
-int add(int x, int y) {
-	return x + y
-}
-
-int subtract(int x, int y) {
-	return x - y
 }
